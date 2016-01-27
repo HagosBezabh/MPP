@@ -1,7 +1,7 @@
 package regularexpression;
 
 import javax.swing.JOptionPane;
-// This program chcecks ...
+// This program chcecks emails...
 public class EmailCheck {
 	
 	private static final String STOP = "0";
