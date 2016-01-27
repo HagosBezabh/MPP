@@ -1,4 +1,4 @@
-package extraordertracking;
+package ordertracking;
 
 public class PersonalCustomer extends ACustomer {
 

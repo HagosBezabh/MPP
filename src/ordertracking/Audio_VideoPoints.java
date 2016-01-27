@@ -1,10 +1,10 @@
-package extraordertracking;
+package ordertracking;
 
-public class HealthPoint extends AComponent{
+public class Audio_VideoPoints extends AComponent {
 
 	private double points;
 
-	public HealthPoint(double point) {
+	public Audio_VideoPoints(double point) {
 
 		this.points = point;
 	}
@@ -14,4 +14,5 @@ public class HealthPoint extends AComponent{
 		// TODO Auto-generated method stub
 		return points;
 	}
+
 }
