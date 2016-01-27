@@ -15,17 +15,18 @@ public static void main(String[] args)
    IntStream.of(values)
             .forEach(value -> System.out.printf("%d ", value));
    System.out.println();
-/*
+
    // count, min, max, sum and average of the values
-   System.out.printf("%nCount: %d%n", IntStream.of(values).count());
+   System.out.printf("Count: %d%n", IntStream.of(values).count());
    System.out.printf("Min: %d%n", 
       IntStream.of(values).min().getAsInt());
    System.out.printf("Max: %d%n", 
       IntStream.of(values).max().getAsInt());
    System.out.printf("Sum: %d%n", IntStream.of(values).sum());
+   
    System.out.printf("Average: %.2f%n", 
       IntStream.of(values).average().getAsDouble());
-
+   
    // sum of values with reduce method
    System.out.printf("%nSum via reduce method: %d%n", 
       IntStream.of(values)                      
@@ -42,6 +43,7 @@ public static void main(String[] args)
                .reduce(1, (x, y) -> x * y));
    
    // even values displayed in sorted order
+    
    System.out.printf("%nEven values displayed in sorted order: "); 
    IntStream.of(values)
             .filter(value -> value % 2 == 0)
@@ -65,7 +67,7 @@ public static void main(String[] args)
 
    // sum range of integers from 1 to 10, inclusive
    System.out.printf("Sum of integers from 1 to 10: %d%n",
-      IntStream.rangeClosed(1, 10).sum());*/
+      IntStream.rangeClosed(1, 10).sum());
 } 
 } // end class IntStreamOperations
 
