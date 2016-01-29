@@ -1,4 +1,5 @@
 package lamdaexpressions;
+
 //Program 4: Employee.java
 //Employee class.
 public class Employee
@@ -8,76 +9,76 @@ private String lastName;
 private double salary; 
 private String department;
 
-// constructor 
+//constructor 
 public Employee(String firstName, String lastName, 
-   double salary, String department)
+ double salary, String department)
 {
-   this.firstName = firstName;
-   this.lastName = lastName;
-   this.salary = salary;
-   this.department = department;
+ this.firstName = firstName;
+ this.lastName = lastName;
+ this.salary = salary;
+ this.department = department;
 } 
 
-// set firstName
+//set firstName
 public void setFirstName(String firstName)
 {
-   this.firstName = firstName;
+ this.firstName = firstName;
 }
 
-// get firstName
+//get firstName
 public String getFirstName()
 {
-   return firstName;
+ return firstName;
 }
 
-// set lastName
+//set lastName
 public void setLastName(String lastName)
 {
-   this.lastName = lastName;
+ this.lastName = lastName;
 }
 
-// get lastName
+//get lastName
 public String getLastName()
 {
-   return lastName;
+ return lastName;
 }
 
-// set salary
+//set salary
 public void setSalary(double salary)
 {
-   this.salary = salary;
+ this.salary = salary;
 }
 
-// get salary
+//get salary
 public double getSalary()
 {
-   return salary;
+ return salary;
 }
 
-// set department
+//set department
 public void setDepartment(String department)
 {
-   this.department = department;
+ this.department = department;
 }
 
-// get department
+//get department
 public String getDepartment()
 {
-   return department;
+ return department;
 }
 
-// return Employee's first and last name combined
+//return Employee's first and last name combined
 public String getName()
 {
-   return String.format("%s %s", getFirstName(), getLastName());
+ return String.format("%s %s", getFirstName(), getLastName());
 }
 
-// return a String containing the Employee's information
+//return a String containing the Employee's information
 @Override
 public String toString() 
 {
-   return String.format("%-8s %-8s %8.2f   %s", 
-      getFirstName(), getLastName(), getSalary(), getDepartment());
+ return String.format("%-8s %-8s %8.2f   %s", 
+    getFirstName(), getLastName(), getSalary(), getDepartment());
 } // end method toString
 } // end class Employee
 
