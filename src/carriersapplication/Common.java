@@ -1,5 +1,5 @@
 package carriersapplication;
-
+//.............................................
 public class Common {
 	private Ups ups;
 	private UsMail mail;
@@ -9,6 +9,7 @@ public class Common {
 		this.mail = mail;
 		this.fed = fed;
 	}
+	//...............
 	
 	public PackageSendingMechanisms getObject(){
 		if(ups.getCost()<=mail.getCost()&&ups.getCost()<=fed.getCost())
