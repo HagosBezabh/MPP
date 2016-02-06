@@ -30,7 +30,8 @@ public class Department {
 		
 		for(Person p: people){
 		Class mem=p.getClass();
-		System.out.println("Name: "+p.getName()+"Phone Number:"+p.getPhoneNumber()+" Age: "+p.getAge()+
+		System.out.println("Name: "+p.getName()+"Phone Number:"+
+		p.getPhoneNumber()+" Age: "+p.getAge()+
 				" Type: "+mem.getSimpleName());
 		}
 	}
